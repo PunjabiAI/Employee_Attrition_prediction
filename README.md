@@ -13,9 +13,13 @@ let’s read the data and do some exploratory data analysis to understand this d
 # attrition = pd.read_csv('HR-Employee-Attrition.csv')
 
 First steps in data exploration is getting a rough idea of how the features are distributed among them. To do this, I’ll use the kdeplot function in the seaborn library in Python:
+
+
 ![github large](https://github.com/PunjabiAI/Employee_Attrition_prediction/blob/main/Images/features_distribution.png)
 
 The next step in a data exploration is to find the correlation matrix. By plotting a correlation matrix, we get a really good look at how the features relate to each other.
+
+
 ![github large](https://github.com/PunjabiAI/Employee_Attrition_prediction/blob/main/Images/correlation_plot.png)
 
 # Observations From Above Plot:
@@ -25,11 +29,15 @@ After exploring our dataset, let’s now move on to the task o feature engineeri
 
 # Machine Learning for Employee Attrition Prediction with Python
 we need to train a Machine Learning model for predicting Employee Attrition prediction with Python. For this task, I will use the Random Forest Classification model provided by Scikit-learn.
+
+
 ![github large](https://github.com/PunjabiAI/Employee_Attrition_prediction/blob/main/Images/Accuracy.png)
 
 As observed, our Random Forest returns around 88% accuracy for its predictions and at first glance, this may seem like a fairly good model.
 
 Sklearn’s Random Forest classifier also contains a very handy attribute for analyzing feature importance which tells us which features in our dataset have received the most importance by the Random Forest algorithm. Let’s visualize the features taken into account by our machine learning model for employee attrition:
+
+
 ![github large](https://github.com/PunjabiAI/Employee_Attrition_prediction/blob/main/Images/feature_importance.png)
 
 I hope you liked this article on Machine Learning project on Employee Attrition Prediction with Python programming language. Feel free to ask your valuable questions in the comments section below.
